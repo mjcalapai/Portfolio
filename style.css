@@ -263,7 +263,7 @@ footer {
 .hobbies-list li {
     /* display: list-item; Keep default list item behavior */
     display: block;
-    list-style-position: inside; /* Align bullet points with the text */
+    /* list-style-position: inside; Align bullet points with the text */
     font-weight: bold; /* Make the text bold */
     margin: 10px 0; /* Add vertical spacing between items */
     text-align: left; /* Ensure text within the list item stays left-aligned */
