@@ -257,10 +257,12 @@ footer {
     list-style: disc; /* Keep the bullet points */
     padding-left: 0;  /* Remove default left padding */
     text-align: center; /* Center the list itself */
+    margin:0;
 }
 
 .hobbies-list li {
-    display: list-item; /* Keep default list item behavior */
+    /* display: list-item; Keep default list item behavior */
+    display: block;
     list-style-position: inside; /* Align bullet points with the text */
     font-weight: bold; /* Make the text bold */
     margin: 10px 0; /* Add vertical spacing between items */
